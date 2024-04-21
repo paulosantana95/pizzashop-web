@@ -16,7 +16,7 @@ describe('Pagination', () => {
         pageIndex={0}
         totalCount={200}
         perPage={10}
-        onPageChange={() => {}}
+        onPageChange={onPageChangeCallback}
       />,
     )
 
